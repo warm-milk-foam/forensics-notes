@@ -36,7 +36,7 @@ I find that these tools are very important in the world of forensics. These tool
     It tells you what tools can be used for analysis
 - This comes pre-installed in a linux distro
 2) Exiftool
-- Gives you metadata of the file (metadata - data about other data)
+- Gives you metadata of the file (metadata - data about other data)   
     ![alt text](image.png)   
 - Especially useful in giving you hidden comments, authors, and other information which can lead to a flag
 - To install

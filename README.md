@@ -6,8 +6,8 @@
 - This is largely inspired by my friend Ryan who has own notes <https://github.com/Milo-sipper/forensics-101> but is incomplete, so I want to finish what he couldn't
 
 # Contents
-1) **What is forensics? How do I start preparing for CTF-styled forensics challenges?**
-2) **Basics**
+1) ### What is forensics? How do I start preparing for CTF-styled forensics challenges? ###
+2) ### Basics ###
 - Bases
 - The default tools (CLI and web tools)
 3) Image analysis

@@ -37,7 +37,7 @@ I find that these tools are very important in the world of forensics. These tool
 - This comes pre-installed in a linux distro
 2) Exiftool
 - Gives you metadata of the file (metadata - data about other data)
-![alt text](image.png)   
+    ![alt text](image.png)   
 - Especially useful in giving you hidden comments, authors, and other information which can lead to a flag
 - To install
 `sudo apt update` -> Updates your system to latest version (Good practice)   

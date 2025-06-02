@@ -6,10 +6,11 @@
 
 # Contents
 1) What is forensics? How do I start preparing for CTF-styled forensics challenges?
-2) Analysing images (.png, .jpeg)
+2) Basics
 3) File formats - What tools should I use?
 4) Zip archives
 5) Volatility
 6) Wireshark
 7) Video and Audio analysis
-
+8) Steganography
+9) Disk imagery

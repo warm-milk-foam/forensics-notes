@@ -1,4 +1,4 @@
-#  What is forensics? #
+#  Chapter1: What is forensics? #
 - Digital forensics is the analysis of files, as an extremely broad definition
 
 ## Why should I learn forensics? ##
@@ -6,7 +6,7 @@
 - Mostly reliant on what tools you use
 - Easy way to earn points during CTF
 
-## Why should I NOT learn forensics ##
+## Why should I NOT learn forensics? ##
 - Can be incredibly guessy
 - Incredibly cumbersome and exhausting when your tools decide to crash out
 - That's why I'm writing this guide, so you can 'minimise' your suffering having to scrap the internet for tools, trash guides (I cannot speak for myself), lack of information when you need it

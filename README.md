@@ -27,7 +27,7 @@
 - Why is the file soooo big?
 - 2 volatility versions? bruh
 - Volatility 2
--volatility 3
+- Volatility 3
 7) ### Wireshark ###
 - wireshark doo doo doo... (What is wireshark used for?)
 - wireshark techniques to obtain those yummy flags

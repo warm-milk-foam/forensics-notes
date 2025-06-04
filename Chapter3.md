@@ -25,15 +25,16 @@ There is also extra information [here](http://www.libpng.org/pub/png/spec/1.2/PN
 ![alt text](image-4.png)  
 They can have different header signatures too
 
-## If the image renders ##
-Then there are two other ways:
+## If the image renders (Then it becomes guessy) ##
+Then there are three other ways:
 1) The flag is hidden inside the image in a file
 2) The flag is hidden in plain sight
+3) Whatever other nonsense such as bitmaps
 
-If the flag is hidden in a embedded file, there are many waves to approach this problem  
-1) 
-
-
+If the flag is hidden in a embedded file, there are many ways to approach this problem  
+1) Using file carvers such as binwalk
+2) Cyberchef/Aperisolve to try extracting the files
 
 However, if the flag could be hidden in plain slight:  
-https://29a.ch/photo-forensics/#forensic-magnifier
+https://29a.ch/photo-forensics/#forensic-magnifier  
+^ This tool will allow you to check for hidden messages, by playing around with the 

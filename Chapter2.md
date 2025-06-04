@@ -29,16 +29,25 @@ Credits: <https://github.com/Milo-sipper/forensics-101/blob/master/Basics/1.2%20
 
 ## Some basic CLI tools that you must know
 I find that these tools are very important in the world of forensics. These tools are able to give you a high-level analysis of the file you are given, which will tell you what tool you should use.
-1) file
+## 1)  file ##
 - All this does is tell you the file type of the challenge you are given
 - This is REALLY useful because: 
     It will tell you the actual file type (challenge could have a decoy file extension)
     It tells you what tools can be used for analysis
 - This comes pre-installed in a linux distro
-2) Exiftool
+## 2)  Exiftool ## 
 - Gives you metadata of the file (metadata - data about other data)   
     ![alt text](image.png)   
 - Especially useful in giving you hidden comments, authors, and other information which can lead to a flag
-- To install
+- To install  
 `sudo apt update` -> Updates your system to latest version (Good practice)   
 `sudo apt install libimage-exiftool-perl` -> Installs exiftool
+## 3)  Binwalk ##
+- Identify and also extract information embedded within files
+![alt text](image-1.png)
+- To install  
+`sudo apt update`  
+`sudo apt install binwalk` -> Install binwalk    
+
+These three tools are very important to having a high level analysis of whatever file you are inspecting
+

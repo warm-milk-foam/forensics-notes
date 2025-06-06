@@ -48,10 +48,20 @@ I find that these tools are very important in the world of forensics. These tool
 - To install  
 `sudo apt update`  
 `sudo apt install binwalk` -> Install binwalk    
+## 4) cat & strings ##
+- They come preinstalled with (I think) every linux distro system
+- `cat` will print out the whole contents of the file (meaning that some weird unreadable gunk will most likely pop up) 
+- `strings` will print out all ASCII readable strings in a file 
+- Here is the difference...  
+![alt text](image-5.png)   
+![alt text](image-6.png)   
+- Most of the time, 'cat' might overwhelm your terminal, so the commands `head` and `tail` might be better (print a small section of the start and end respectively)
+- If you are lucky, these basic commands will reveal the flag to you if they are not encoded
 
-These three tools are very important to having a high level analysis of whatever file you are inspecting   
+
+These tools are very important to having a high level analysis of whatever file you are inspecting   
    
       
          
             
-also today I figured out that computer names don't actually pose a privacy risk
+*also today I figured out that computer names don't actually pose a privacy risk*

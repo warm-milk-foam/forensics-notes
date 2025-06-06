@@ -17,7 +17,6 @@
 - PNGs
 - JPEGs
 4) ### File formats - What challenge is this? What tools should I use? ###
-- Magic bytes
 - Okay, what tools should I use for each?
 5) ### Zip archives ###
 - There's more than one? (.rar, .zip)

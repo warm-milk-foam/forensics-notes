@@ -50,4 +50,4 @@ https://29a.ch/photo-forensics/#forensic-magnifier
 ^ This tool will allow you to check for hidden messages, by playing around with the luminous intensity, etc 
 
 Here is some practice:
-1) picoctf basic forensics challenges: Glory of the Garden, information
+1) picoctf basic forensics challenges: Glory of the Garden, information, tunnel vision challenges

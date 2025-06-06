@@ -27,6 +27,3 @@ But for the sake of simplicity, one reliable linux distro would be ubuntu:
 
 This is because some of the commands I may use would be specific to debian-based linux distros.   
 What this means is that some of these commands may not work on other distros, because they use different services and functions to work
-
-## If you read it this far... ##   
-Thank you! I hope this guide will show you the information and techniques you might need.

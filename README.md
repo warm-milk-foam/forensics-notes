@@ -1,5 +1,5 @@
 # Forensics-notes
-- A beginner-friendly, dumbed down, forensics notes targetted towards CTF challenges
+- A (hopefully) beginner-friendly, dumbed down, forensics notes targetted towards CTF challenges
 - I made this so as to provide a more comprehensive guide to approaching challenges, plus I am trying to learn Markdown and I want to do something productive
 - This guide will take information from many sources just so I can create a guide for just about everything in that section
 - Disclaimer: I suck at CTFing, so this guide may miss out relevant information/get things wrong

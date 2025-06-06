@@ -49,5 +49,9 @@ I find that these tools are very important in the world of forensics. These tool
 `sudo apt update`  
 `sudo apt install binwalk` -> Install binwalk    
 
-These three tools are very important to having a high level analysis of whatever file you are inspecting
-
+These three tools are very important to having a high level analysis of whatever file you are inspecting   
+   
+      
+         
+            
+also today I figured out that computer names don't actually pose a privacy risk

@@ -68,5 +68,6 @@ Exiftool and binwalk will still be quite important here
 - Use [Logic](https://www.google.com/search?q=logic%202.4.29&client=firefox-b-d&sclient=gws-wiz-serp)
 
 I have given only the common ones that people (or me in this case) would use during CTFs.  
-For more tools, you can look here: https://github.com/cugu/awesome-forensics?tab=readme-ov-file  
-https://wiki.bi0s.in/steganography/roadmap/
+For more tools, you can look here:   
+https://github.com/cugu/awesome-forensics?tab=readme-ov-file    
+https://wiki.bi0s.in/steganography/roadmap/  

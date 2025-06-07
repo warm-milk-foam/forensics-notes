@@ -11,6 +11,7 @@ So this chapter serves as a guide for what tools to use for different file forma
 - [Photopea](https://www.photopea.com/) A free online tool to edit photos, would come in handy when you need to change an image (like QR codes)
 - [Forensically](https://29a.ch/photo-forensics/#forensic-magnifier) - Analyse images from the surface level
 - [StegOnline](https://georgeom.net/StegOnline/upload) for steganography (which we will cover later)
+- [hexed.it](https://hexed.it/) for hex manipulation
 2) CLI tools:
 - Exiftool, Binwalk, strings, file and cat (The basics)
 - Pngcheck (Check PNGs for corruption)

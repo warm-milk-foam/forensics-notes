@@ -19,7 +19,7 @@
 4) ### File formats - What challenge is this? What tools should I use? ###
 - Okay, what tools should I use for each?
 5) ### Zip archives ###
-- There's more than one? (.rar, .zip)
+- There's more than one? (.rar, .zip, .tar)
 - How the hell do I extract them?
 - OMG IT'S PASSWORD PROTECTED
 6) ### Volatility ###

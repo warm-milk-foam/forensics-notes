@@ -37,3 +37,19 @@ There are two kinds of attacks you would need to know:
 - `john zip.hash --wordlist=rockyou.txt` to attempt dictionary attack 
 - `hashcat -m 13600 zip.hash rockyou.txt` as another alternative  
 - `hashcat` can handle many hash varieties and is faster than john
+- Both are better for modern encryptions
+- You can see what hashes that `hashcat` can break here: https://hashcat.net/wiki/doku.php?id=hashcat   
+- A guide to using john
+### 3) BKcrack
+- Uses known plaintext attacks to attack a ZipCrypto-encrypted file
+- Can be installed with:  
+`sudo apt install bkcrack`  
+OR manually with:  
+`git clone https://github.com/kimci86/bkcrack.git`  
+`cd bkcrack`  
+`make`  
+- For example, if you know that inside the challenge zip file there is a string (like "flag{")  
+- You can run:  
+`bkcrack -C [path_to_zip_file] -c [encrypted file inside the zip you are targetting] -p [known plaintext]`
+- This attempts to recover the internal ZipCrypto keys with a known plaintext attack
+- For more info: https://vulners.com/kitploit/KITPLOIT:1672845780085945004

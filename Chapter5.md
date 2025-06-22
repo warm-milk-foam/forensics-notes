@@ -14,6 +14,22 @@ And as mentioned before, here are some of the tools this chapter will run throug
 - `hashcat` (Bruteforce password hash when you extract it with `john`)
 - `rockyou.txt` (Your standard password dictionary containing just about every common password)   
 
+There are two kinds of attacks you would need to know:  
+1) Bruteforce - Guess the password by sending different characters and lengths
+2) Dictionary - Send passwords from a dictionary (like `rockyou.txt`) in hopes that the password is commonly used 
+   
 ## 1) Password-encrypted zip files
 - Most of the time you zip files in forensics are encrypted with a password
 - These zip files are encrypted in different ways, so different cracking software should be used against each one
+- Here are some tools to deal with such challenges   
+### 1) fcrackzip
+- Good for zip files that have weak encryption (Not AES encrypted, which you can tell with `zipinfo`)
+- It can be very easily installed with `sudo apt install fcrackzip`
+- Command to run it:   
+`fcrackzip -v -u -D -p rockyou.txt -z secret.zip` where rockyou.txt is a dictionary
+`-v` means verbose, where the attack progress is shown  
+`-u` tests the first file, making the attack faster  
+`-D -p` means a dictionary attack and supplies a password list  
+
+### 2) john & hashcat
+- Work better for AES-encrypted zips than `fcrackzip` by extrracting a hash to break    

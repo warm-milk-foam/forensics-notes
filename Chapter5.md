@@ -20,6 +20,7 @@ There are two kinds of attacks you would need to know:
 1) Bruteforce - Guess the password by sending different characters and lengths
 2) Dictionary - Send passwords from a dictionary (like `rockyou.txt`) in hopes that the password is commonly used 
    
+No. 2 is objectively better     
 ## 1) Password-encrypted zip files
 - Most of the time you zip files in forensics are encrypted with a password
 - These zip files are encrypted in different ways, so different cracking software should be used against each one
@@ -73,4 +74,9 @@ for i in range(97175, 0, -1):
         path="/home/warm-milk-foam/CTF/dunhack/misc/unzipforflag")
     print(f"Decrypted {i}")
 ```
-To get the flag
+To get the flag at Flag_0.zip  
+Also btw your directory will be littered and your CPU will die  
+
+## Conclusion
+There are more methods in which flags can be hidden in zip files like metadata, etc  
+But these are the more common ones that I hope you have learnt from this.  

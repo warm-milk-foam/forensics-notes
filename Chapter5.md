@@ -9,10 +9,12 @@ And as mentioned before, here are some of the tools this chapter will run throug
 - `unrar` tool (extract from .rar files)
 - `zipinfo OR 7z l` (Information about zip encryption. Yes that matters)
 - `fcrackzip` (Bruteforce specifically for zip files)
-- `john + zip2john` (Bruteforce for many kinds of files)
+- **`john + zip2john`** (Bruteforce for many kinds of files) w
 - `bkcrack` (Plaintext attack for zipped files)
 - `hashcat` (Bruteforce password hash when you extract it with `john`)
 - `rockyou.txt` (Your standard password dictionary containing just about every common password)   
+
+For john, there is a 'jumbo' version which is enhanced by the community with **\support for more hashes and ciphers**  
 
 There are two kinds of attacks you would need to know:  
 1) Bruteforce - Guess the password by sending different characters and lengths
@@ -52,4 +54,6 @@ OR manually with:
 - You can run:  
 `bkcrack -C [path_to_zip_file] -c [encrypted file inside the zip you are targetting] -p [known plaintext]`
 - This attempts to recover the internal ZipCrypto keys with a known plaintext attack
-- For more info: https://vulners.com/kitploit/KITPLOIT:1672845780085945004
+- For more info: https://vulners.com/kitploit/KITPLOIT:1672845780085945004  
+
+also this is where i learnt about bkcrack https://github.com/NUSGreyhats/greyctf25-challs-public/tree/main/forensics/notsus.exe/sol

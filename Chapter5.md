@@ -57,3 +57,20 @@ OR manually with:
 - For more info: https://vulners.com/kitploit/KITPLOIT:1672845780085945004  
 
 also this is where i learnt about bkcrack https://github.com/NUSGreyhats/greyctf25-challs-public/tree/main/forensics/notsus.exe/sol
+
+## 2) Zip archives that are obscenely big 
+A staple in CTFs, where zip archives are zipped thousands of times, so much so where unzipping it manually will suck big time   
+An example would be this one: https://github.com/Coding-Competition-Team/HACK-AC-2021/tree/main/Easy/Misc/Unzip%20for%20flag  
+(Yes I am from ACSI how else would I know)  
+![alt text](image-7.png)  
+
+However, this is easy if you know how to script an unzipper  
+For the challenge above, I scripted this:
+```
+for i in range(97175, 0, -1):
+  with ZipFile(f"/home/warm-milk-foam/CTF/dunhack/misc/unzipforflag/Flag_{i}.zip", 'r') as zObject:
+    zObject.extractall(
+        path="/home/warm-milk-foam/CTF/dunhack/misc/unzipforflag")
+    print(f"Decrypted {i}")
+```
+To get the flag

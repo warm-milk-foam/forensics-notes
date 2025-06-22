@@ -33,3 +33,7 @@ There are two kinds of attacks you would need to know:
 
 ### 2) john & hashcat
 - Work better for AES-encrypted zips than `fcrackzip` by extrracting a hash to break    
+- Use `zip2john challenge.zip > zip.hash` to extract the hash  
+- `john zip.hash --wordlist=rockyou.txt` to attempt dictionary attack 
+- `hashcat -m 13600 zip.hash rockyou.txt` as another alternative  
+- `hashcat` can handle many hash varieties and is faster than john

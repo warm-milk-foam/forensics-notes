@@ -5,6 +5,9 @@ This is useful when a system crashes, because it tells you what could have went 
 In CTFs, the flag would be hidden in one of the processes occurring  
 
 ## How do I install?
+
+Let us assume that you have `python2` and `python3` installed  
+
 -To install `Volatility 2` follow these steps:  
 ```
 git clone https://github.com/volatilityfoundation/volatility.git
@@ -13,13 +16,15 @@ cd volatility
 
 python2 setup.py install
 ```
-You may see something like this:  
-
-![alt text](image-8.png)  
-To fix this, you  can run
-
 - Which I took from https://mahim-firoj.medium.com/how-to-install-volatility-2-and-how-to-use-it-8d7335e2c26c
 - Alternatively, you could also use the executable version, which bypasses the need for you to invoke `python2` for use
+
+Thats usually it, but...  
+You may see something like this  
+
+![alt text](image-8.png)  
+This just means volatility is complaining about some things that it requires to do some analysis properly.  
+To fix this, you  can run
 ```
 sudo python2 get-pip.py (Install pip2)
 sudo apt install python2-dev  (So that the next function can run)
@@ -49,3 +54,17 @@ You may be asking, why do I have to install 2 volatility versions?
 Personally, I like to use volatility 2 for CTF challenges more   
 
 ## How do I use? 
+Let us assume that you never touched the executable one, meaning that the commands I state here will invoke `python`
+Plus, vol2 and vol3 use different commands but here I will just talk about vol2  
+Make sure you are in the directory with the `vol.py` file  
+
+1) `python2 vol.py imageinfo -f [your_memory_dump]`
+What this does is that it 
+
+
+
+
+https://mahim-firoj.medium.com/how-to-install-volatility-2-and-how-to-use-it-8d7335e2c26c   
+https://andreafortuna.org/2018/03/02/volatility-tips-extract-text-typed-in-a-notepad-window-from-a-windows-memory-dump/  
+https://www.golinuxcloud.com/analyzing-volatility-memory-dump/#Step_2_Checking_the_running_processes     
+For practice, try the CCT_teaching challenges on dunhack.me (open only to ACSI students)  

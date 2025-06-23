@@ -76,6 +76,7 @@ for i in range(97175, 0, -1):
 ```
 To get the flag at Flag_0.zip  
 Also btw your directory will be littered and your CPU will die  
+So be careful when running bruteforces, they usually will have some hint nodding to them  
 
 ## Conclusion
 There are more methods in which flags can be hidden in zip files like metadata, etc  

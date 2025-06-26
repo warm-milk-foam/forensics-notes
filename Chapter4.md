@@ -43,11 +43,10 @@ Usually, if you had to bruteforce, the flag would be obtainable quite quickly (M
 - You can easily tell these from the chunky size of the file (Maybe like 500mb - 2 gb)
 - Volatility 2
 - Volatility 3
-- I will teach you how to install later
 
 ## 4. pcap files 
-- Its automatic - We have to analyse internet traffic
-- The tool for this is Wireshrk
+- Its almost automatic - We have to analyse internet traffic
+- The tool for this is Wireshark
 
 ## 5. Video and Audio Analysis
 - This one sucks boooooo

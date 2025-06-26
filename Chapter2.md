@@ -58,7 +58,13 @@ I find that these tools are very important in the world of forensics. These tool
 - Most of the time, 'cat' might overwhelm your terminal, so the commands `head` and `tail` might be better (print a small section of the start and end respectively)
 - If you are lucky, these basic commands will reveal the flag to you if they are not encoded
 
-
+## 5) grep 
+- Allows you to extract a specific text from a file full of garbage  
+- `-e` allows you to grep a pattern from a text
+- `-f` specifies what file you want to grep from
+- In most basic challenges, one way would be to hide a plaintext flag, which is extremely cheesable (with `strings` and `grep`)
+- This can also be done with base64 encoded text and other encodings since you know part of the flag (maybe `flag{...`)
+- This should come in preinstalled
 These tools are very important to having a high level analysis of whatever file you are inspecting   
    
       

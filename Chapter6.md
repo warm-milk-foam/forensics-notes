@@ -59,12 +59,21 @@ Plus, vol2 and vol3 use different commands but here I will just talk about vol2
 Make sure you are in the directory with the `vol.py` file  
 
 1) `python2 vol.py imageinfo -f [your_memory_dump]`
-What this does is that it 
+![alt text](image-9.png)   
+- Tells you the suggested profile that you should pass as the parameter to `--profile=PROFILE` when you want further analysis  
+- There is also `kdbgscan` and `kprscan` which help to scan the exact profile you should use  
 
+2) `python2 vol.py -f [your_memory_dump] --profile [profile] pslist`
+- To sum it up, shows you all running processes 
+- Shows you process IDs and their start times  
+- `pstree` does this but in a tree form
+
+3) 
 
 
 
 https://mahim-firoj.medium.com/how-to-install-volatility-2-and-how-to-use-it-8d7335e2c26c   
 https://andreafortuna.org/2018/03/02/volatility-tips-extract-text-typed-in-a-notepad-window-from-a-windows-memory-dump/  
 https://www.golinuxcloud.com/analyzing-volatility-memory-dump/#Step_2_Checking_the_running_processes     
+https://github.com/volatilityfoundation/volatility/wiki/command-reference  
 For practice, try the CCT_teaching challenges on dunhack.me (open only to ACSI students)  

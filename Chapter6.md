@@ -26,9 +26,9 @@ You may see something like this
 This just means volatility is complaining about some things that it requires to do some analysis properly.  
 To fix this, you  can run
 ```
-sudo python2 get-pip.py (Install pip2)
-sudo apt install python2-dev  (So that the next function can run)
-pip2 install pycryptodome distorm3    
+sudo python2 get-pip.py # Install pip2
+sudo apt install python2-dev  # So that the next function can run
+pip2 install pycryptodome distorm3    # Install your stuff
 
 Note: this may not be something you encounter. Just putting it here because it happened to me. 
 ```
@@ -42,7 +42,7 @@ cd volatility3/
 
 pip3 install -r requirements.txt
 
-Also, its good practice to download the volatility 3 symbols if they do not show up  
+# Also, its good practice to download the volatility 3 symbols if they do not show up  
 
 volatility3/volatility3/symbols/  
 git clone https://github.com/volatilityfoundation/volatility3-symbols.git  
@@ -67,7 +67,8 @@ Make sure you are in the directory with the `vol.py` file
 - To sum it up, shows you all running processes 
 - Shows you process IDs and their start times  
 - `pstree` does this but in a tree form
-
+![](image-10.png)  
+Something like this would show up  
 3) 
 
 

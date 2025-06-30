@@ -58,23 +58,40 @@ Let us assume that you never touched the executable one, meaning that the comman
 Plus, vol2 and vol3 use different commands but here I will just talk about vol2  
 Make sure you are in the directory with the `vol.py` file  
 
+Here are a few basic commands you may want to know:  
+
 1) `python2 vol.py imageinfo -f [your_memory_dump]`
 ![alt text](image-9.png)   
 - Tells you the suggested profile that you should pass as the parameter to `--profile=PROFILE` when you want further analysis  
 - There is also `kdbgscan` and `kprscan` which help to scan the exact profile you should use  
 
-2) `python2 vol.py -f [your_memory_dump] --profile [profile] pslist`
+2) `python2 vol.py -f [your_memory_dump] --profile=[profile] pslist`
 - To sum it up, shows you all running processes 
 - Shows you process IDs and their start times  
 - `pstree` does this but in a tree form
 ![](image-10.png)  
 Something like this would show up  
-3) 
 
+3) `python2 vol.py -f [your_memory_dump] --profile=[profile] handles`
+- Displays the open handles in a process
+- Handles are references to abstract objects in memory
+- Gets you files, keys, etc...
+
+4) `python2 vol.py -f [your_memory_dump] --profile=[profile] cmdscan`
+- Shows you previous commands entered into command prompt
+
+5) `python2 vol.py -f [your_memory_dump] --profile=[profile] memdump --dump-dir=./ -p [name_of_dump_to_save_to]`
+- Dump everything from a process
+- Useful when you think a flag is hidden in one of the processes
+
+
+There is more that I want to put here but I am too lazy 💀   
+So here are some links and guides where I learnt this stuff  
 
 
 https://mahim-firoj.medium.com/how-to-install-volatility-2-and-how-to-use-it-8d7335e2c26c   
 https://andreafortuna.org/2018/03/02/volatility-tips-extract-text-typed-in-a-notepad-window-from-a-windows-memory-dump/  
-https://www.golinuxcloud.com/analyzing-volatility-memory-dump/#Step_2_Checking_the_running_processes     
+https://www.golinuxcloud.com/analyzing-volatility-memory-dump/#Step_2_Checking_the_running_processes       
+Command reference:  
 https://github.com/volatilityfoundation/volatility/wiki/command-reference  
 For practice, try the CCT_teaching challenges on dunhack.me (open only to ACSI students)  

@@ -20,12 +20,23 @@ Ok but you need to know this in order to understand wireshark
 Here is the guideline to how networking works:
 - Information is sent between computers through `packets`, which are smaller segments of data
 - These packets are encrypted and sent over from a `source` to a `destination`, as you will see in wireshark. The `source` and `destination` are unique IP addresses
+- 1) TCP, UDP, HTTP packets
+- Usually, these give you the information being transmitted from the source to destination
+- These packets will give you a high level overview on what may be going on
 
+- 2) DNS packets
+- Stands for Domain Name System
+- Tells you the domain names that is being resolved
+
+- 3) TLS/SSL Packets (Encrypted Traffic)
+- Encrypted traffic packets
+- More often than not 
 
 ## What to do from here...
 To guide you along, I'm going to be using the challenge file from the picoCTF challenge `Wireshark doo dooo do doo...`  
 ![alt text](image-11.png)  
-To open it in wireshark, go to `File`
+To open it in wireshark, go to `File` > `Open` and select it from your computer  
+
 
 
 References:  

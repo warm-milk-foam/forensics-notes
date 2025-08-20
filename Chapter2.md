@@ -64,10 +64,11 @@ I find that these tools are very important in the world of forensics. These tool
 - `-f` specifies what file you want to grep from
 - In most basic challenges, one way would be to hide a plaintext flag, which is extremely cheesable (with `strings` and `grep`)
 - This can also be done with base64 encoded text and other encodings since you know part of the flag (maybe `flag{...`)
-- This should come in preinstalled
+- This should come in preinstalled  
 These tools are very important to having a high level analysis of whatever file you are inspecting   
    
       
          
             
+
 *also today I figured out that computer names don't actually pose a privacy risk*

@@ -29,4 +29,5 @@ This is because some of the commands I may use would be specific to debian-based
 What this means is that some of these commands may not work on other distros, because they use different services and functions to work
 
 
-If you want to get started with forensics, read on to the nest chapter.  
+If you want to get started with forensics, read on to the next chapter.  
+

@@ -8,7 +8,7 @@
 
 ## Why should I NOT learn forensics? ##
 - Can be incredibly guessy
-- Incredibly cumbersome and exhausting when your tools decide to crash out
+- Incredibly cumbersome and exhausting when your tools decide to crash out  
 That's why I'm writing this guide, so you can minimise your suffering having to scrap the internet for tools, trash guides (I cannot speak for myself), lack of information when you need it   
 
 ## What tools do I need to learn forensics ##
@@ -27,5 +27,6 @@ But for the sake of simplicity, one reliable linux distro would be ubuntu:
 
 This is because some of the commands I may use would be specific to debian-based linux distros.   
 What this means is that some of these commands may not work on other distros, because they use different services and functions to work
+
 
 If you want to get started with forensics, read on to the nest chapter.  

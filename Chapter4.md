@@ -49,7 +49,6 @@ Usually, if you had to bruteforce, the flag would be obtainable quite quickly (M
 - The tool for this is Wireshark
 
 ## 5. Video and Audio Analysis
-- This one sucks boooooo
 1) Audio analysis
 - Audacity/Sonic visualiser
 - Deep Sound (I haven't used this yet)

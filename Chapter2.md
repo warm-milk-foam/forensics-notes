@@ -37,14 +37,14 @@ I find that these tools are very important in the world of forensics. These tool
 - This comes pre-installed in a linux distro
 ## 2)  Exiftool ## 
 - Gives you metadata of the file (metadata - data about other data)   
-    ![alt text](image.png)   
+    ![alt text](images/image.png)   
 - Especially useful in giving you hidden comments, authors, and other information which can lead to a flag
 - To install  
 `sudo apt update` -> Updates your system to latest version (Good practice)   
 `sudo apt install libimage-exiftool-perl` -> Installs exiftool
 ## 3)  Binwalk ##
 - Identify and also extract information embedded within files
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 - To install  
 `sudo apt update`  
 `sudo apt install binwalk` -> Install binwalk    
@@ -53,8 +53,8 @@ I find that these tools are very important in the world of forensics. These tool
 - `cat` will print out the whole contents of the file (meaning that some weird unreadable gunk will most likely pop up) 
 - `strings` will print out all ASCII readable strings in a file 
 - Here is the difference...  
-![alt text](image-5.png)   
-![alt text](image-6.png)   
+![alt text](images/image-5.png)   
+![alt text](images/image-6.png)   
 - Most of the time, 'cat' might overwhelm your terminal, so the commands `head` and `tail` might be better (print a small section of the start and end respectively)
 - If you are lucky, these basic commands will reveal the flag to you if they are not encoded
 

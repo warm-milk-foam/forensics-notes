@@ -1,4 +1,4 @@
-#  Chapter5: Volatility   #
+#  Chapter6: Volatility   #
 The files are very big because they are memory dumps  
 Memory dumps are basically all the information in the RAM of a system at a current point of time    
 This is useful when a system crashes, because it tells you what could have went wrong   
@@ -22,7 +22,7 @@ python2 setup.py install
 Thats usually it, but...  
 You may see something like this  
 
-![alt text](image-8.png)  
+![alt text](images/image-8.png)  
 This just means volatility is complaining about some things that it requires to do some analysis properly.  
 To fix this, you  can run
 ```
@@ -61,7 +61,7 @@ Make sure you are in the directory with the `vol.py` file
 Here are a few basic commands you may want to know:  
 
 1) `python2 vol.py imageinfo -f [your_memory_dump]`
-![alt text](image-9.png)   
+![alt text](images/image-9.png)   
 - Tells you the suggested profile that you should pass as the parameter to `--profile=PROFILE` when you want further analysis  
 - There is also `kdbgscan` and `kprscan` which help to scan the exact profile you should use  
 
@@ -69,7 +69,7 @@ Here are a few basic commands you may want to know:
 - To sum it up, shows you all running processes 
 - Shows you process IDs and their start times  
 - `pstree` does this but in a tree form
-![](image-10.png)  
+![](images/image-10.png)  
 Something like this would show up  
 
 3) `python2 vol.py -f [your_memory_dump] --profile=[profile] handles`

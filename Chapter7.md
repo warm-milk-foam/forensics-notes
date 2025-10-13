@@ -9,6 +9,9 @@ In this lesson I hope to teach you about:
 1) Network packets, the different types and what you should look out for
 2) Important functionalities of wireshark that proves useful
 
+
+This small guide doesn't show you how to use it to capture new network traffic on the spot, but rather for use in CTFs  
+
 ## Installing wireshark!! 
 - Install wireshark from https://www.wireshark.org/download.html depending on whether you are on Windows, Mac, etc
 - There is a command line version called `tshark` though I won't delve into that
@@ -32,8 +35,10 @@ Tells you the domain names that is being resolved
 Encrypted traffic packets  
 More often than not cannot be read in wireshark unless decrypted, but still useful for overview analysis
 
-4) ARP packets
-Maps IP addresses to MAC addresses
+4) ARP packets  
+Maps IP addresses to MAC addresses  
+
+Essentially, what wireshark aims to do is to break down the network transmission into the packets so it can be analysed easily for users, by giving as much detail as possible about the packets  
 
 ## What to do from here...
 To guide you along, I'm going to be using the challenge file from the picoCTF challenge `Wireshark doo dooo do doo...`  

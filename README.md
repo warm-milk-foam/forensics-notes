@@ -2,7 +2,7 @@
 - An extremely simple, easy-to-understand guide to forensics CTF, based on my experience, so that you can kind of read it like a book and understand most of the concepts   
 - I made this so as to provide a more comprehensive guide to approaching challenges, plus I am trying to learn Markdown and I want to do something productive
 - This guide will take information from many sources just so I can create a guide for just about everything in that section
-- This is largely inspired by my friend Ryan who has own notes <https://github.com/Milo-sipper/forensics-101> but is incomplete, so I want to finish what he couldn't
+- This is largely inspired by my friend Ryan who has own notes at <https://github.com/Milo-sipper/forensics-101> but is incomplete, so I want to finish what he couldn't
 
 # Contents
 1)  What is forensics? How do I start preparing for CTF-styled forensics challenges? 

@@ -14,11 +14,14 @@
 - 16 base numbering system (0-9, A-F)
 - Basically `A → 10, B → 11, C → 12, D → 13 E →14 F → 15`
 - Starts at 0 because computers are 0-indexed (aka first item start at 0)
-- ASCII text can aslo rely on hex, where "Hello" can be displayed as `48 65 6C 6C 6F 0A`
+- ASCII text can aslo rely on hex, where "Hello" can be displayed as `48 65 6C 6C 6F`
+- Do take note that every two characters/numbers is one byte in the converted form, as in `48` converts to `H`, `65` converts to `e`, just to make it really clear
 
 4) Base 64
 - 64 characters are used to encode stuff
-- Can usually be found through the '==' at the back
+- Can usually be found through the '==' at the back  
+![alt text](../images/image18.png)  
+Of course, this won't be all the bases you see, but these are just the common ones you might encounter  
 
 ### How to decode these:
 1) Cyberchef - Will identify for you
@@ -67,4 +70,5 @@ I find that these tools are very important in the world of forensics. These tool
 - This should come in preinstalled  
 These tools are very important to having a high level analysis of whatever file you are inspecting   
    
+
 *also today I figured out that computer names don't actually pose a privacy risk*

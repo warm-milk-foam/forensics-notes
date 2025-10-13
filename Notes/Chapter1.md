@@ -14,7 +14,7 @@ That's why I'm writing this guide, so you can minimise your suffering having to 
 ## What tools do I need to learn forensics ##
 - As most other CTF challenges require; a linux distro or a terminal emulator to run CLI commands
 - (If you do not know what linux is, it is a free and open-source operating system kernel that can allow you to run tools in this guide for the sake of CTF'ing)
-- If you are on windows, it will NOT suffice for you to Command prompt (maybe you could but I rather not)   
+- If you are on windows, it will NOT suffice for you to use Command prompt (maybe you could but I rather not)   
 Instead, you can install Windows Subsystem For Linux (WSL) by following this: <https://learn.microsoft.com/en-us/windows/wsl/install>
 - On the other hand, if you want a full system of linux, you have 2 options
 1) Dual Boot (aka; installing a linux operating system on your computer), probably not a good choice if you have no clue what you are doing
@@ -26,7 +26,7 @@ But for the sake of simplicity, one reliable linux distro would be ubuntu:
 <https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview> 
 
 This is because some of the commands I may use would be specific to debian-based linux distros.   
-What this means is that some of these commands may not work on other distros, because they use different services and functions to work
+(What this means is that some of these commands may not work on other distros, because they use different services and functions to work)
 
 
 If you want to get started with forensics, read on to the next chapter.  

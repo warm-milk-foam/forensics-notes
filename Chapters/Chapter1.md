@@ -9,7 +9,7 @@
 ## Why should I NOT learn forensics? ##
 - Can be incredibly guessy
 - Incredibly cumbersome and exhausting when your tools decide to crash out  
-That's why I'm writing this guide, so you can minimise your suffering having to scrap the internet for tools, guides (i dont see many of them), lack of information when you need it   
+That's why I'm writing this guide, so you can minimise your suffering having to scrap the internet for tools, guides (I dont see many of them), lack of information when you need it   
 
 ## What tools do I need to learn forensics ##
 - As most other CTF challenges require; a linux distro or a terminal emulator to run CLI commands

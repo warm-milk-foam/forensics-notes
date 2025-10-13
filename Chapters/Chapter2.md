@@ -23,7 +23,7 @@
 ### How to decode these:
 1) Cyberchef - Will identify for you
 
-Credits: <https://github.com/Milo-sipper/forensics-101/blob/master/Basics/1.2%20Hex%20editing%2C%20Binary%2C%20decimal%2C%20and%20base%2064.md>
+Credits (Largely inspired by this guy): <https://github.com/Milo-sipper/forensics-101/blob/master/Basics/1.2%20Hex%20editing%2C%20Binary%2C%20decimal%2C%20and%20base%2064.md>
 
 --- 
 

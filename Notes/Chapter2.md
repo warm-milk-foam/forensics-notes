@@ -67,8 +67,4 @@ I find that these tools are very important in the world of forensics. These tool
 - This should come in preinstalled  
 These tools are very important to having a high level analysis of whatever file you are inspecting   
    
-      
-         
-            
-
 *also today I figured out that computer names don't actually pose a privacy risk*

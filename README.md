@@ -1,8 +1,7 @@
 # Forensics-notes
-- A (hopefully) beginner-friendly, dumbed down, forensics notes targetted towards CTF challenges, so that you can follow it without any hindrance whatsoever 
+- An extremely simple, easy-to-understand guide to forensics CTF, based on my experience, so that you can kind of read it like a book and understand most of the concepts   
 - I made this so as to provide a more comprehensive guide to approaching challenges, plus I am trying to learn Markdown and I want to do something productive
 - This guide will take information from many sources just so I can create a guide for just about everything in that section
-- Disclaimer: I suck at CTFing, so this guide may miss out relevant information/get things wrong
 - This is largely inspired by my friend Ryan who has own notes <https://github.com/Milo-sipper/forensics-101> but is incomplete, so I want to finish what he couldn't
 
 # Contents
@@ -13,8 +12,9 @@
 5)  Zip archives 
 6) Volatility 
 7) Wireshark
-8)  Video and Audio analysis
+8) Video and Audio analysis
 9) Steganography ('Advanced' Image analysis)
 10) Disk imagery
 
-If there's anything I can change about the notes, pls email me at `ingocodingbecauseyes@gmail.com`
+If there's anything I can change about the notes, pls email me at `ingocodingbecauseyes@gmail.com`  
+As of 13/10/25, it is still being updated!  

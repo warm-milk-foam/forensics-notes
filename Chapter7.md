@@ -8,7 +8,6 @@ Depending on how cheeky the challenge creators want to be, it can be from:
 In this lesson I hope to teach you about:
 1) Network packets, the different types and what you should look out for
 2) Important functionalities of wireshark that proves useful
-3) Some advanced networking methods which I learn while typing these notes
 
 ## Installing wireshark!! 
 - Install wireshark from https://www.wireshark.org/download.html depending on whether you are on Windows, Mac, etc
@@ -60,6 +59,28 @@ So, now you know how to use wireshark to read through the packets and its data!
 In CTF challenges, it will definitely become more complicated than this, as they require you to understand what is happening in the network transmission, such as any attacks (DNS tunneling, etc)  
 
 ## More functions and features to know about Wireshark
+These are just the functions that I as a CTF player often use a lot:  
+
+1) Export Objects  
+- Files are often transmitted in network transmissions, so this is often a clue/item needed to solve the challenge and get the flag  
+- If you notice a file name in the packets or anything big being transmitted, this could indicate a file object
+- You can do this by going into `Files > Export Objects > [Mode in which the file is being transmitted]`
+
+2) Filters
+- If you know which packets are of significance to you, you can use the filter function to filter for specific packets
+- For example, you can type `tcp` to filter for the specific protocols, use `any ip.addr == [ip address here]` to filter for any specific ip addresses
+- More information can be found here: https://www.wireshark.org/docs/man-pages/wireshark-filter.html
+
+3) Protocol Hierachy
+![](image-17.png)
+- Gives you a brief overview of what packets may be of concern to you  
+
+## Summary  
+To summarise, you have learnt:
+1) How to quickly look through the packets of data  
+2) Different packets and their properties  
+
+Usually, using wireshark in more complicated CTF challenges relies on you looking out for anomalies in the tranmission, based on context and past experience. Of course, I cannot teach anything more advanced than this, but I hope this serves as a complete, fresh start to how Wireshark can be used.  
 
 References:  
 https://www.cloudflare.com/en-gb/learning/network-layer/how-does-the-internet-work/  

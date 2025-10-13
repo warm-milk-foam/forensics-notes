@@ -42,22 +42,22 @@ Essentially, what wireshark aims to do is to break down the network transmission
 
 ## What to do from here...
 To guide you along, I'm going to be using the challenge file from the picoCTF challenge `Wireshark doo dooo do doo...`  
-![alt text](images/image-11.png)  
+![alt text](../images/image-11.png)  
 To open it in wireshark, go to `File` > `Open` and select it from your computer     
 One of the basic skills is to read the contents of each packet  
-![alt text](images/image-13.png)
-![alt text](images/image-12.png)    
+![alt text](../images/image-13.png)
+![alt text](../images/image-12.png)    
 Here, we can see the interface of wireshark. There are many things here, but we will focus on a few things now:  
 1) The centre shows the list of packets during the network transmission, each having their own unique properties and data.    
 2) In the bottom left corner, we will see more data about the protocols and the protocol fields (which isn't too useful to the beginner now, but can suggest anomalous activity)  
 3) The most important part of searching is in the bottom right corner, which shows the data of the packet in a hexdump format    
 
 But to get the better read on the packets, you can right-click them and press follow on a stream they are on, so that you can get something like this:    
-![alt text](images/image-14.png)  
+![alt text](../images/image-14.png)  
 Resulting in a text editor format of all the data in the packet, in ASCII format:  
-![alt text](images/image-15.png)
+![alt text](../images/image-15.png)
 By changing the streams in the bottom right, you can "walk through" the packets until we come across this:  
-![alt text](images/image-16.png)
+![alt text](../images/image-16.png)
 This flag is the casear cipher encoded, as can be seen from the last string. 
 
 So, now you know how to use wireshark to read through the packets and its data!  
@@ -77,7 +77,7 @@ These are just the functions that I as a CTF player often use a lot:
 - More information can be found here: https://www.wireshark.org/docs/man-pages/wireshark-filter.html
 
 3) Protocol Hierachy
-![](images/image-17.png)
+![](../images/image-17.png)
 - Gives you a brief overview of what packets may be of concern to you  
 
 ## Summary  

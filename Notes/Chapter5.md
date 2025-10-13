@@ -62,8 +62,8 @@ also this is where i learnt about bkcrack https://github.com/NUSGreyhats/greyctf
 ## 2) Zip archives that are obscenely big 
 A staple in CTFs, where zip archives are zipped thousands of times, so much so where unzipping it manually will suck big time   
 An example would be this one: https://github.com/Coding-Competition-Team/HACK-AC-2021/tree/main/Easy/Misc/Unzip%20for%20flag  
-(Yes I am from ACSI how else would I know)  
-![alt text](images/image-7.png)  
+  
+![alt text](../images/image-7.png)  
 
 However, this is easy if you know how to script an unzipper  
 For the challenge above, I scripted this:

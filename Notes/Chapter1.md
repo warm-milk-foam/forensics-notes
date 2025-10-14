@@ -2,7 +2,7 @@
 - Digital forensics is the analysis of files, as an extremely broad definition
 
 ## Why should I learn forensics? ##
-- Relatively easy to learn (Low skill floor)
+- Relatively easy to learn (Low skill floor - doesn't involve much scripting for easier challenges)
 - Mostly reliant on what tools you use
 - Easy way to earn points during CTF
 

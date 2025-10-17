@@ -51,6 +51,7 @@ I find that these tools are very important in the world of forensics. These tool
 - To install  
 `sudo apt update`  
 `sudo apt install binwalk` -> Install binwalk    
+Also some alternatives are `foremost`, `scalpel`  and `bulk_extractor (for disk images)`
 ## 4) cat & strings ##
 - They come preinstalled with (I think) every linux distro system
 - `cat` will print out the whole contents of the file (meaning that some weird unreadable gunk will most likely pop up) 

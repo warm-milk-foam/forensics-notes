@@ -8,7 +8,8 @@ If its 2, usually it would be a tool called `Audacity` and walk through a few ch
 
 ## Spectrogram and waveform ##  
 
-For our first challenge, let us analyse this file called `chall.wav`, which I uploaded to a directory called "Challenge files"   
+For the first challenge, I will analyse a challenge file `chall.wav` from Render Foobar CTF 2021
+(I cannot upload the file because github would complain about it, and I realised now why my commit wasn't working)
 
 ![alt text](../images/image-19.png)  
 Here, I opened up `chall.wav` in Audacity, showing us a waveform version of the audio that is stored  

@@ -13,14 +13,14 @@ For our first challenge, let us analyse this file called `chall.wav`, which I up
 ![alt text](../images/image-19.png)  
 Here, I opened up `chall.wav` in Audacity, showing us a waveform version of the audio that is stored  
 A waveform version refers to the time-domain representation of the sound played, where the y-axis refers to amplitude and the x-axis to the corresponding time  
-However, there is nothing of note here, so we would have to change to spectrogram view by clicking the three dots and selecting, `Spectrogram view`  
+However, there is nothing of note here, so we would have to change to spectrogram view by clicking the three dots and selecting, `Spectrogram view`    
 
-![alt text](../images/image-20.png)
+![alt text](../images/image-20.png)  
 
 And here, we find something interesting:   
 ![alt text](../images/image-21.png)  
 And by zooming in, we can see the flag:  
-![alt text](../images/image-22.png)  
+![alt text](../images/image-22.png)
 
 Sometimes, the flag can be hidden through the waveform representation as well, through rhythmic pauses (binary encoding, morse code, etc), but ultimately depends on the context to find anomalies in how the file is presented to you  
 

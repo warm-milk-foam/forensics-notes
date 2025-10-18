@@ -28,5 +28,32 @@ Sometimes, the flag can be hidden through the waveform representation as well, t
 ## Mixing the files together ##  
 
 Sometimes, flags can only be revealed by mixing the files together in audacity
+To showcase this ability, another challenge I will go through will be My Favourite Music from CDDC20  
 
+![alt text](../images/image-23.png)  
+
+First we started off by placing the two files together.   
+![alt text](../images/image-24.png)  
+
+They both appear to have the same patterns, but the suspicious.wav is significantly shorter.  
+At first, I just tried mixing both together, by going to tracks and `Mix and render` after selecting the two tracks, but it yielded this:  
+![alt text](../images/image-25.png)
+Which was strange, but I noticed that there are just small differences between the both, but there are still the same pattern  
+
+So I inverted the suspicious.wav by going to `Effect > Special > Invert`  
+And by mixing both of them, we get this:
+![alt text](../images/image-26.png)  
+
+This appears to be a morse code, with the message:  
+`-- --- .-. ... . .-.. ... -...`  
+I shoved this into chatgpt and the message is `MORSELSB`
+
+While this is a nice challenge to showcase the significance of mixing and other features audacity has, this challenge is INCREDIBLY guessy, I had to follow a writeup for this
+
+## Summary ##
+There are so many techniques and features about Audacity that I still couldn't cover, but I hope this serves as a quickstart guide.  
+Do note that audio files can still be subject to analysis with `exiftool` and file carving tools, make sure to always conduct them to search for hidden files and everything  
+
+
+https://github.com/kinzhong/cddc2020-write-up/blob/master/My%20Favourite%20Music.txt
 https://sumit-arora.medium.com/audio-steganography-the-art-of-hiding-secrets-within-earshot-part-2-of-2-c76b1be719b3

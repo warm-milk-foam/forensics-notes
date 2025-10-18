@@ -12,7 +12,7 @@
 5) Zip archives 
 6) Volatility 
 7) Wireshark
-8) Video and Audio analysis
+8) Audio analysis
 9) Steganography ('Advanced' Image analysis)
 10) Disk imagery
 

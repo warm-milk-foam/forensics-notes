@@ -38,10 +38,12 @@ They can have different header signatures too
 Then there are three other ways:
 1) The flag is hidden inside the image in a file
 2) The flag is hidden in plain sight
-3) Other things (which will go into stego)
+3) Other advanced techniques (which will go into stego)  
+
+Usually from here, you could continue using the `exiftool` and `aperisolve` tools on a rendered image to see if it produces any viable result.    
 
 If the flag is hidden in a embedded file, there are many ways to approach this problem  
-1) Using file carvers such as binwalk
+1) Using file carvers such as binwalk and foremost
 2) Cyberchef/Aperisolve to try extracting the files  
 After which, just rinse and repeat the high level analysis and go lower until you hit the flag
 

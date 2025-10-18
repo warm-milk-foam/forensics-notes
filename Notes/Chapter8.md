@@ -26,5 +26,6 @@ Sometimes, the flag can be hidden through the waveform representation as well, t
 
 ## Mixing the files together ##  
 
+Sometimes, flags can only be revealed by mixing the files together in audacity
 
 https://sumit-arora.medium.com/audio-steganography-the-art-of-hiding-secrets-within-earshot-part-2-of-2-c76b1be719b3

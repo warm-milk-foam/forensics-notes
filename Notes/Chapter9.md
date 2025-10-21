@@ -115,9 +115,14 @@ So basically,
 ![alt text](Lichtenstein_bitplanes.png)  
 In this example from wikipedia, this means there are 8 possible bit planes where data can be hidden.    
 So why is this so important? Because just like LSB, you can manipulate certain bits of the image to hide messages (the whole point of stego in the first place!)    
+Again, you could use this tool again https://incoherency.co.uk/image-steganography/ because it extracts bits from one bit plane only.  
+However, if you need more variety, you can use [stegsolve](https://wiki.bi0s.in/steganography/stegsolve/) which can help you look for more bit planes, such as specific colours (RGB)    
 
-https://wiki.bi0s.in/steganography/stegsolve/  
+## Steghide ##  
+
 ## pngcheck ##
+
+
 
 
 

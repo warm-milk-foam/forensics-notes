@@ -119,7 +119,10 @@ Again, you could use this tool again https://incoherency.co.uk/image-steganograp
 However, if you need more variety, you can use [stegsolve](https://wiki.bi0s.in/steganography/stegsolve/) which can help you look for more bit planes, such as specific colours (RGB)    
 
 ## Steghide ##  
-
+Steghide is another popular tool to hide data in images, but unlike the previous ones, you are unable to get the data back by just simply reading the bit planes.  
+That is because Steghide doesnt't hide data directly in the pixel colours, but rather, hidden randomly in selected LSB bits  (and a bit differently in JPEGs)  
+So, hiding a message  
+https://medium.com/the-kickstarter/steganography-on-kali-using-steghide-7dfd3293f3fa
 ## pngcheck ##
 
 

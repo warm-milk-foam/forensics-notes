@@ -112,20 +112,30 @@ So basically,
 1) If the image is transmitted in 8 bit  
 2) Each pixel is based on 16 bits, like `01110 0100`  
 3) This means there are 8 bit planes, one corresponding for each number of the bits of the pixel      
-![alt text](Lichtenstein_bitplanes.png)  
+![alt text](../images/Lichtenstein_bitplanes.png)  
 In this example from wikipedia, this means there are 8 possible bit planes where data can be hidden.    
 So why is this so important? Because just like LSB, you can manipulate certain bits of the image to hide messages (the whole point of stego in the first place!)    
 Again, you could use this tool again https://incoherency.co.uk/image-steganography/ because it extracts bits from one bit plane only.  
 However, if you need more variety, you can use [stegsolve](https://wiki.bi0s.in/steganography/stegsolve/) which can help you look for more bit planes, such as specific colours (RGB)    
 
 ## Steghide ##  
-Steghide is another popular tool to hide data in images, but unlike the previous ones, you are unable to get the data back by just simply reading the bit planes.  
-That is because Steghide doesnt't hide data directly in the pixel colours, but rather, hidden randomly in selected LSB bits  (and a bit differently in JPEGs)  
-So, hiding a message  
-https://medium.com/the-kickstarter/steganography-on-kali-using-steghide-7dfd3293f3fa
+- Steghide is another popular tool to hide data in images, but unlike the previous ones, you are unable to get the data back by just simply reading the bit planes.  
+- That is because Steghide doesnt't hide data directly in the pixel colours, but rather, hidden randomly in selected LSB bits  (and a bit differently in JPEGs)    
+- Using Steghide to hide information is as simple as: `steghide embed -cf cover_image.jpg -ef secret.txt`  
+- `cf` refers to the cover image and `ef` is for embedding the secret message in the cover image   
+- To extract it, simply:  
+- `steghide extract -sf sus_image.jpg` 
+- You will be prompted to enter a passphrase for extracting the secret message. This passphrase is essential because it determines (putting it simply) what bits will be changed to hide the data.     
+- In CTF challenges, you might need to bruteforce a password for the image, but usually, they will also give another way to find the passphrase from another file (for example).  
+
+Cool links from which I referred to:  
+https://medium.com/the-kickstarter/steganography-on-kali-using-steghide-7dfd3293f3fa  
+https://www.hackercoolmagazine.com/beginners-guide-to-steghide/  
 ## pngcheck ##
-
-
-
+Sometimes, flags can be hidden in PNGs, but exiftool and file don't really detect that messages are hidden in the chunks of the image.  
+This [tool](https://www.nayuki.io/page/png-file-chunk-inspector) allows you to readily check what information can be hiding in each chunk, plus some more detail about the image itself.  
+![alt text](../images/image-37.png)  
+For example, in this image, (where I used a sample image on the website), we can see the chunks of data in the PNG - with `IHDR` referring to the starting chunk with all the info, `IDAT` for a data chunk, and `IEND` for the end chunk.
+I highly encourage you to go play with the website, its pretty interesting, and you can upload your own images too.    
 
 

@@ -17,4 +17,4 @@
 10) Disk imagery
 
 If there's anything I can change about the notes, pls email me at `ingocodingbecauseyes@gmail.com`  
-As of 13/10/25, it is still being updated!  
+As of 15/1/26, I am happy to say it should be completed, I should have probably changed this message a long time ago...

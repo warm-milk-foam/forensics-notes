@@ -13,4 +13,3 @@ Here, I will dump all the links, tools and resources I personally find useful an
 10) https://fotoforensics.com/ (Another forensics tool)  
 11) https://github.com/jklm264/My-Forensics-Notes/tree/master/Tools  
 12) https://github.com/cugu/awesome-forensics  
-13) 

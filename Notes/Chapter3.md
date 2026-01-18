@@ -3,7 +3,7 @@ Often, you will be given an image to analyse for a flag. What can you do?
 4 types of files would go under this category: PNGs, JPEGs, GIFs (just basically multiple pictures) and BMPs (Bitmaps)
 
 ## Magic bytes ##
-- You would know that these is the case when the image does not open properly
+- You would know that this is (usually) the case when the image does not open properly
 - Magic bytes are basically bytes of a file that will tell you what kind of file it is
 - To see magic bytes, you can use a online tool called [hexed.it](https://hexed.it/) or you can do in the terminal with multiple hex editor tools that exist out there  
 ![alt text](../images/image-2.png)  
@@ -24,7 +24,7 @@ There is also extra information [here](http://www.libpng.org/pub/png/spec/1.2/PN
 
 - ### JPEG files are like the same, but they only have one extremely long data chunk ###    
 ![alt text](../images/image-4.png)  
-They can have different header signatures too
+They can have different header signatures too. 
 
 - ### Bitmap images also follow the PNG's chunk like structure, with...  ###
 1) Bitmap file header, or the magic bytes -> 14 bytes in total, can be recognised with "BM"

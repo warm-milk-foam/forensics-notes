@@ -20,18 +20,18 @@ So this chapter serves as a guide for what tools to use for different file forma
 - stegdetect (Detect secret data)
 - dd (Carving tool like binwalk)  
 
-We will go through these tools later in `steganography` chapter 
+We will go through these tools later in the`steganography` chapter 
 
 ## 2. Zip archives
 - If you do not not know how to extract these, you can try the folllowing:
 1) Most zip files
 - `7z` tool (Can unzip many file formats)
-- `unzip` tool (the standard which should always be present)
+- `unzip` tool (the standard which should always be present in your linux system)
 - `tar` tool (extract from .tar files)
 - `unrar` tool (extract from .rar files)
 2) Sometimes said zip files will be protected with a password and guess what you don't know them   
-(You would be in for a bad time)
-- `zipinfo OR 7z l` (Information about zip encryption. Yes that matters)
+(Involves a vulnerability or it is a bruteforce)
+- `zipinfo OR 7z l` (Information about zip encryption. Yes, that matters because it determines how you approach the challenge with what tools and exploiting what vulnerbilities)
 - `fcrackzip` (Bruteforce specifically for zip files)
 - `john + zip2john` (Bruteforce for many kinds of files)
 - `bkcrack` (Plaintext attack for zipped files)
@@ -45,8 +45,7 @@ Usually, if you had to bruteforce, the flag would be obtainable quite quickly (M
 - Volatility 3
 
 ## 4. pcap files 
-- Its almost automatic - We have to analyse internet traffic
-- The tool for this is Wireshark
+- Analyse internte traffic with Wireshark
 
 ## 5. Video and Audio Analysis
 1) Audio analysis

@@ -12,9 +12,9 @@
 5) Zip archives 
 6) Volatility 
 7) Wireshark
-8) Video and Audio analysis
+8) Audio analysis
 9) Steganography ('Advanced' Image analysis)
 10) Disk imagery
 
 If there's anything I can change about the notes, pls email me at `ingocodingbecauseyes@gmail.com`  
-As of 13/10/25, it is still being updated!  
+As of 15/1/26, I am happy to say it should be completed, I should have probably changed this message a long time ago...

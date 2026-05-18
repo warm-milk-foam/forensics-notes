@@ -2,7 +2,7 @@
 - An extremely simple, easy-to-understand guide to forensics (specifically for Capture-The-Flag challenges), based on my experience, so that you can kind of read it like a book and understand most of the concepts (or at least i aim to make it that way)    
 - I made this so as to provide a more comprehensive guide to approaching challenges, plus I am trying to learn Markdown and I want to do something productive
 - This guide will take information from many sources just so I can create a guide for just about everything in that section
-- This is largely inspired by my friend Ryan who has own notes at <https://github.com/Milo-sipper/forensics-101> but is incomplete, so I want to finish what he couldn't
+- This is largely inspired by my friend Ryan who has own notes at <https://github.com/Milo-sipper/forensics-101> but is incomplete, so I want to finish what he couldn't (stealing his job)
 
 # Contents
 1) What is forensics? How do I start preparing for CTF-styled forensics challenges? 
@@ -15,6 +15,7 @@
 8) Audio analysis
 9) Steganography ('Advanced' Image analysis)
 10) Disk imagery
+11) Resources  
 
 If there's anything I can change about the notes, pls email me at `ingocodingbecauseyes@gmail.com`  
 As of 15/1/26, I am happy to say it should be completed, I should have probably changed this message a long time ago...
